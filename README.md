@@ -1,4 +1,4 @@
-# mailer_service
+# Auto mail service
 App is able to respond to emails sent to your Gmail mailbox while you’re out on a vacation. 
 
 The app checks for new emails in a given Gmail ID

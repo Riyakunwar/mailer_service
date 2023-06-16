@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 const Mailgen = require('mailgen');
 
-const { EMAIL, PASSWORD } = require('../env.js')
+const { EMAIL, PASSWORD} = require('../env.js')
 
 /** send mail from testing account */
 const signup = async (req, res) => {

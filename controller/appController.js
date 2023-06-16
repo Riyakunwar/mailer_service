@@ -21,11 +21,11 @@ const signup = async (req, res) => {
     });
 
     let message = {
-        from: '"Fred Foo 👻" <foo@example.com>', // sender address
+        from: '"Fred Foo" <foo@example.com>', // sender address
         to: "bar@example.com, baz@example.com", // list of receivers
-        subject: "Hello ✔", // Subject line
-        text: "Successfully Register with us.", // plain text body
-        html: "<b>Successfully Register with us.</b>", // html body
+        subject: "Hello", // Subject line
+        text: "Thanks for the mail.", // plain text body
+        html: "<b>Thanks for the mail.</b>", // html body
       }
 
 
